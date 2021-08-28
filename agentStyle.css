@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Poppins-semiBold';
+    src: url(fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins-light';
+    src: url(fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+div{
+    display: inline-block;
+}
+#mainDiv{
+    margin-left: calc(50% - 175px);
+    width: 339px;
+    height: 493px;
+    background-color: #FFFFFF;
+    /* background-color: hotpink; */
+    border-radius: 20px;
+    box-shadow: 0px 16px 40px rgb(138, 143, 147, .2);
+    margin-top: 50px;
+}
+#upperHalf{
+    position: relative;
+}
+#mainImg{
+    width: 192px;
+    height: 192px;
+    margin-left: calc(170px - 95px);
+    margin-top: 20px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+#smallImg{
+    position: absolute;
+    bottom: 8px;
+    right: -25px;
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    border: #EFF5FF 2px solid;
+}
+#rateDiv{
+    position: absolute;
+    bottom: -15px;
+    right: 40px;
+    width: 104px;
+    height: 32px;
+    background-color: #46494C;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    box-shadow: 0px 0px 6px rgb(0, 0, 0, .16);
+
+}
+#rateP{
+    margin-top: 6px;
+    color: white;
+    margin-left: 35px;
+    font-family: 'Poppins-semiBold';
+    font-size: 12px;
+    line-height: 18px;
+
+}
+.checked {
+    color: gold;
+    margin-left: 5px;
+    height: 16px;
+    width: 16px;
+}
+#nameP{
+    width: 185px;
+    height: 25px;
+    font-family: 'Poppins-SemiBold';
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 75px;
+    margin-bottom: 0;
+    color: #46494C;
+}
+#jobTitleP{
+    font-family: 'Poppins-light';
+    font-size: 14px;
+    text-align: center;
+    color: #8A8F93;
+    width: 42px;
+    height: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 145px;
+    font-weight: 900;
+
+}
+#locP{
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #8A8F93;
+    width: 77px;
+    height: 20px;
+    margin-left: 130px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+button{
+    border: none;
+}
+.contact{
+    padding: 5px;
+    text-align: center;
+    width: 320px;
+}
+.messageBtn{
+    width: 174px;
+    height: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #4BBEF7, #9C9DFE);
+}
+.callBtn{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(54, 219, 153, .2);
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.iconsImg{
+    width: 16px;
+    height: 16px;
+}
+
+
+footer{
+    width: 339px;
+    height: 67px;
+    background-color: #F5F5FF;
+    margin-top: 40px;
+    border-radius: 0px 0px 19px 19px;
+}
+.verticalLineDiv{
+    width: 2px;
+    height: 27px; 
+    border-radius: 20px; 
+    background-color: #FFFFFF; 
+    margin-left: 25px;
+}
+.firstFooterDiv{
+    margin-left: 60px; 
+    font-size:12px;
+    font-family: 'Poppins'; 
+    width: 19px; 
+    height: 17px; 
+    line-height: 10px;
+}
+.secondFooterDiv{
+    margin-left: 25px;
+}

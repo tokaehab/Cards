@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Poppins-semiBold';
+    src: url(fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+#mainDiv{
+    margin-left: calc(50% - 175px);
+    width: 339px;
+    height: 487px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 16px 40px rgb(170, 170, 170, .2);
+    margin-top: 50px;
+    position: relative;
+}
+img{
+    width: 191px;
+    height: 192px;
+    margin-left: calc(170px - 95px);
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+#rateDiv{
+    margin-top: -18px;
+    margin-left: calc(170px - 52px);
+    width: 104px;
+    height: 32px;
+    background-color: #46494C;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    box-shadow: 0px 0px 6px rgb(0, 0, 0, .16);
+    position: relative;
+}
+#rateP{
+    margin-top: 6px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins-semiBold';
+    font-size: 12px;
+    line-height: 18px;
+
+}
+.checked {
+    color: gold;
+    margin-left: 5px;
+    height: 16px;
+    width: 16px;
+}
+#nameP{
+    width: 160px;
+    height: 25px;
+    font-family: 'Roboto';
+    line-height: 26px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 95px;
+    margin-bottom: 0;
+}
+#locP{
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #8A8F93;
+    width: 77px;
+    height: 20px;
+    margin-left: 142px;
+    margin-top: 0;
+    font-weight: 900;
+}
+#firstsection{
+    width: 249px;
+    height: 63px;
+    margin-left: 50px;
+}
+.forIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #F5F5FF;
+}
+.icons{
+    width: 16px;
+    height: 16px;
+    border: #707070 1px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+.underIconP{
+    width: 36px;
+    height: 15px;
+    font-family: 'Poppins';
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 16px;
+    text-align: center;
+    color: #46494C;
+    display: inline-block;
+
+}
+.underSecondIconP{
+    width: 80px;
+    margin-left: 40px;
+}
+.underThirdIconP{
+    margin-left: 38px;
+    color: teal;
+}
+.secondIcon{
+    margin-left: 55px;
+}
+.thirdIcon{
+    margin-left: 55px;
+}
+div{
+    display: inline-block;
+}
+footer{
+    width: 339px;
+    height: 67px;
+    background-color: #F5F5FF;
+    position: absolute;
+    bottom: 0;
+}
+.verticalLineDiv{
+    width: 2px;
+    height: 27px; 
+    border-radius: 20px; 
+    background-color: #FFFFFF; 
+    margin-left: 25px;
+}
+.firstFooterDiv{
+    margin-left: 60px; 
+    font-size:12px;
+    font-family: 'Poppins'; 
+    width: 19px; 
+    height: 17px; 
+    line-height: 10px;
+}
+.secondFooterDiv{
+    margin-left: 25px;
+}

@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'Lato-bold';
+    src: url(fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'Roboto-light';
+    src: url(fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+#mainDiv{
+    width: 339px;
+    height: 474px;
+    background-color: #FFFFFF;
+    /* background-color: blueviolet; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px rgb(0, 0, 0, 0.08);
+    margin-top: 50px;
+    margin-left: calc(50% - 170px);
+}
+#upperHalf{
+    width: 339px;
+    height: 226px;
+    position: relative;
+
+}
+#mainImg{
+    width: 333px;
+    height: 226px;
+    border-radius: 20px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    border-color: #F9FAFE;
+    border-width: 3px;
+    box-shadow: 0px 20px 50px rgb(0, 0, 0, 0.16);
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+button > img{
+    width: 24px;
+    height: 24px;
+}
+
+#rightBtn{
+    position: absolute;
+    right: 0px;
+    top: 113px;
+
+}
+#leftBtn{
+    position: absolute;
+    left: 0px;
+    top: 113px;
+}
+#loveBtn{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 15px;
+    border-radius: 50px;
+    top: 15px;
+}
+.circles{
+    position: absolute;
+    bottom: 25px;
+    left: 140px;
+    width: 8px;
+    height: 8px;
+    background-color: #FFFFFF;
+    opacity: 0.2;
+    border-radius: 10px;
+}
+.firstCircle{
+    opacity: 1;
+}
+.secondCircle{
+    margin-left: 15px;
+}
+.thirdCircle{
+    margin-left: 30px;
+}
+.fourthCircle{
+    margin-left: 45px;
+}
+.fifthCircle{
+    margin-left: 60px;
+}
+.sixthCircle{
+    margin-left: 75px;
+}
+
+#companyName{
+    position: absolute;
+    bottom: -25px;
+    left: 30px;
+    width: 185px;
+    height: 40px;
+    background-color: #F9FAFE;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, .15);
+}
+#logoImg{
+    width: 30px;
+    height: 30px;
+    margin: 5px 15px 5px 5px;
+    display: inline-block;
+}
+#nameP{
+    position: absolute;
+    bottom: 5px;
+    left: 45px;
+    display: inline-block;
+    width: 100px;
+    height: 16px;
+    font-family: 'Lato-bold';
+    font-size: 10px;
+    margin: 5px;
+    color: #1C2D49;
+    line-height: 12px;
+}
+.iconBtn{
+    position: absolute;
+    bottom: 5px;
+    width: 28px;
+    height: 28px;
+    background-color: rgb(43, 202, 122, .27);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 100px;
+    
+}
+.iconsImg{
+    width: 12px;
+    height: 12px;
+}
+#media{
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    bottom: -25px;
+    right: 25px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, .15);
+}
+.shareBtn{
+    background-color: rgb(64, 201, 255, .27);
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.fileTransferBtn{
+    background-color: rgb(128, 128, 255, .27);
+    margin-left: 55px;
+    border-radius: 20px;
+}
+#desc{
+    width: 300px;
+    height: 42px;
+    margin-top: 45px;
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 21px;
+    color: #46494C;
+    margin-bottom: 7px;
+
+}
+
+#locIcon{
+    width: 16px;
+    height: 16px;
+    color: #4BBEF7;
+    display: inline;
+    margin-right: 4px;
+}
+#locP{
+    width: 250px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #8A8F93;
+    max-lines: 1;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.keyWord{
+    display: inline-block;
+    height: 15px;
+    /* padding-top: 5px; */
+    background-color: #F9FAFE;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgb(0, 0, 0, .09);
+    color: #8080FF;
+    font-family: 'Roboto-light';
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.firstWord{
+    margin-left: 25px;
+    width: 48px;
+}
+.secondWord{
+    width: 80px;
+    margin-left: 5px;
+}
+#roomsDesc{
+    background-color: #F5F5FF;
+    width: 339px;
+    height: 54px;
+    margin-top: 8px;
+}
+.roomIcon{
+    width: 16px;
+    height: 16px;    
+}
+.roomP{
+    display: inline-block;
+    width: 75px;
+    height: 36px;
+    margin-top: 5px;
+    font-family: 'Roboto-Light';
+    font-size: 12px;
+    line-height: 16px;
+    color: #8A8F93;
+    text-align: center;
+    margin-left: 13px;
+}
+.thirdRoomP{
+    width: 100px;
+
+}
+.verticalLine{
+    display: inline-block;
+    width: 2px;
+    height: 27px; 
+    border-radius: 20px; 
+    background-color: #FFFFFF; 
+    margin-left: 5px;
+}
+#priceTagImg{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+footer{
+    width: 150px;
+    height: 18px;
+    font-size: 15px;
+    font-family: 'Roboto-bold';
+    line-height: 19px;
+    text-align: center;
+    width: 339px;
+    margin-top: 5px;
+    color: #8A8F93;
+    padding-top: 10px;
+}
+footer > span{
+    color: #8080FF;
+    font-size: 20px;
+}
+
